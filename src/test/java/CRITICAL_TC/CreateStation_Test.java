@@ -22,7 +22,7 @@ public class CreateStation_Test extends BaseClass {
 		String longitude = elib.getDataFromExcel("sheet1", 1, 5);
 		String maxpower = elib.getDataFromExcel("sheet1", 1, 6);
 		HomePage hpp = new HomePage(driver);
-
+System.out.println("      hj  ");
 		hpp.getStationtab().click();
 
 		AddStationPage asp = new AddStationPage(driver);
