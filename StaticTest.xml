@@ -5,7 +5,7 @@
 <parameter name="browser" value="firefox"></parameter>
   <test thread-count="5" name="Test">
     <classes>
-      <class name="CRITICAL_TC.Station_Test"/>
+      <class name="CRITICAL_TC.CreateStation_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -8,13 +8,13 @@ import BaseUtility.BaseClass;
 import ObjectRepositoryClass.AddStationPage;
 import ObjectRepositoryClass.HomePage;
 
-//@Listeners(ListenerUtility.ListenerImplementationclass.class)
+@Listeners(ListenerUtility.ListenerImplementationclass.class)
 public class CreateStation_Test extends BaseClass {
 
 	@Test
 	public void Create_Station() throws Throwable {
 
-		String stationName = elib.getDataFromExcel("sheet1", 1, 0) + jlib.getRandomNumber(100);
+		String stationName = elib.getDataFromExcel("sheet1", 1, 0) ;
 		String company = elib.getDataFromExcel("sheet1", 1, 1);
 		String address = elib.getDataFromExcel("sheet1", 1, 2);
 		String postalcode = elib.getDataFromExcel("sheet1", 1, 3);
@@ -35,7 +35,6 @@ public class CreateStation_Test extends BaseClass {
 		String actualdata = driver.findElement(By.xpath("//p[text()='" + stationName + "']")).getText();
 		System.out.println(actualdata);
 		hardobj.hardAssertforboolean(stationName, actualdata);
-		System.out.println("End of tc_____");
 		System.out.println("End of tc_____");
 	}
 
