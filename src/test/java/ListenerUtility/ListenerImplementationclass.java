@@ -39,7 +39,7 @@ public class ListenerImplementationclass implements ITestListener, ISuiteListene
 		// add env info and create test
 		report = new ExtentReports();
 		report.attachReporter(spark);
-		report.setSystemInfo("OS", "windows_10");
+		report.setSystemInfo("OS", "MacBook Pro");
 		report.setSystemInfo("BROWSER", "chrome");
 	}
 

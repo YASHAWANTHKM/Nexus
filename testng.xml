@@ -3,7 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
   <classes>
-  <class name="CRITICAL_TC.StationTest"></class>
+  <class name="CRITICAL_TC.CreateStation_Test"></class>
+   <!-- <class name="CRITICAL_TC.CreateStation_Test"></class>-->
   
   
   </classes>

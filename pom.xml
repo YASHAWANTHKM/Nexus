@@ -67,12 +67,7 @@
             <version>2.11.0</version>
         </dependency>
 
-        <!-- ✅ Jackson Databind (For JSON Processing in API Testing) -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.15.0</version>
-        </dependency>
+
 
     </dependencies>
 

@@ -131,7 +131,7 @@ public class AddStationPage extends WebDriver_UtilityClass {
 
 		publishCheckbox.click();
 		Thread.sleep(1000);
-		addStationbtncreating.click();
+		//addStationbtncreating.click();
 
 	}
 

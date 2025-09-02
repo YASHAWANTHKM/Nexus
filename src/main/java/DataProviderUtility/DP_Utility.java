@@ -1,13 +1,13 @@
 package DataProviderUtility;
 
-import org.testng.annotations.DataProvider;
+//import org.testng.annotations.DataProvider;
 
 import FileUtility.ExcelUtilityClass;
 
 public class DP_Utility {
 	
 
-		@DataProvider(name = "datafromExcelforNexus")
+		//@DataProvider(name = "datafromExcelforNexus")
 		public Object[][] getdatafromdataProvider() throws Throwable {
 			ExcelUtilityClass elib = new ExcelUtilityClass();
 			int rowcount = elib.getRowCount("Products");

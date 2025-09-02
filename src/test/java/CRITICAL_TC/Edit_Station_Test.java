@@ -30,13 +30,10 @@ public class Edit_Station_Test extends BaseClass {
 		HomePage hpp=new HomePage(driver);
 		
 		hpp.getStationtab().click();
+		System.out.println("Tc end ");
 		
 			
-		
-		
 
-		
-		
 	}
 
 }
