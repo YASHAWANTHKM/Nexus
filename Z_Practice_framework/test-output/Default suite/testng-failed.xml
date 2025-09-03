@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Stations_Module.Edit_Statiion_Test">
+        <methods>
+          <include name="AfterSuite"/>
+          <include name="executeAfter"/>
+          <include name="BeforeClass"/>
+          <include name="Edit_Station"/>
+          <include name="executeBefore"/>
+          <include name="Afterclass"/>
+          <include name="BeforeSuite"/>
+        </methods>
+      </class> <!-- Stations_Module.Edit_Statiion_Test -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
